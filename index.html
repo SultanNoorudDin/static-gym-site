@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gym</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css.style">
+
+    <style>
+        /* css reset */
+        .header{
+            /* height: 3000px; */
+            /* position: fixed; */
+        }
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('dumbellRack.jpg');
+        }
+
+        .left {
+            /* border: 2.5px solid black; */
+            display: inline-block;
+            position: absolute;
+            top: 10px;
+            left: 13px;
+        }
+
+        .center {
+            /* border: 3px solid rgb(0, 221, 255); */
+            display: block;
+            width: 51%;
+            margin: 21px auto;
+
+        }
+
+        .right {
+            position: absolute;
+            top: 27px;
+            right: 13px;
+            color: aliceblue;
+            display: inline-block;
+            /* border: 3px solid rgb(229, 255, 0); */
+        }
+
+        .navbar {
+            border: 2px solid greenyellow;
+            border-radius: 15px;
+            text-decoration: none;
+            background-color: black;
+
+            /* margin: auto; */
+        }
+
+        .navbar li {
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            font-size: 24px;
+            color: white;
+            text-decoration: none;
+            padding: 25px;
+        }
+
+        .navbar li a:hover {
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        .left img {
+            width: 96px;
+            height: 67px;
+        }
+        .left div{
+            line-height: 12px;
+            
+            color: black;
+            /* background-color: white; */
+            text-align: center;
+            font-size: 20px;
+            font-family: fantasy;
+        }
+        
+        .btn{
+            color: white;
+            border-radius: 30px;
+            background-color: black;
+            border-color: yellow;
+            cursor: pointer;
+
+        }
+        .btn:hover{
+            background-color: yellow;
+            color: black;
+        }
+        .btn1:hover{
+            background-color: yellow;
+            color: black;
+        }
+        .container{
+            border: 3px solid gold;
+            margin: 137px 337px;
+            padding: 4px 4px;
+            /* width: 32%; */
+            border-radius: 20px;
+            color: whitesmoke;
+            background-color: black;
+            font-family: sans-serif;;
+        }
+        .btn1{
+            color: white;
+            border-radius: 30px;
+            background-color: black;
+            border-color: gold;
+            cursor: pointer;
+            display: block;
+            width: 27%;
+            margin-left: 255px;
+            margin-bottom: 30px;
+            margin-top: 10px;
+            /* text-align: center; */
+        } 
+        .formGroup{
+            border: 6px solid black;
+            border-radius: 25px;
+            text-align: center;
+            display: block;
+            padding: 6px;
+            width: 161px;
+            margin: 3px auto;
+            /* border-radius: 6px; */
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="logo.png" alt="">
+            <div>Gym fitness</div>
+        </div>
+        <!-- -------------------------------- -->
+        <!-- center for navigation -->
+        <div class="center">
+
+            <ul class="navbar">
+                <li><a href="">Home</a> </li>
+                <li><a href=""> Fitness Plans</a></li>
+                <li><a href=""> About Us</a></li>
+                <li><a href="">Contact us</a> </li>
+
+            </ul>
+        </div>
+        <!-- ................................ -->
+        <!-- right for buttons -->
+        <div class="right">
+            <button class="btn">⭐  Rate us</button>
+            <button class="btn">📧  Email us</button>
+        </div>
+        <!-- ................................. -->
+    </header>
+    <div class="container">
+        <h2>Want to get fit? </h2>
+        <p>Join now</p>
+        <form action="nothing.py">
+            <div class="formGroup">
+                <input type="text" name="kxbhi" id="" placeholder="Enter your name :">
+            </div>
+            <div class="formGroup">
+                <input type="text" name="kxbhi" id="" placeholder="Enter your gender :">
+            </div>
+            <div class="formGroup">
+                <input type="text" name="kxbhi" id="" placeholder="Enter your age :">
+            </div>
+            <div class="formGroup">
+                <input type="text" name="kxbhi" id="" placeholder="Enter your locality :">
+            </div>
+            <div class="formGroup">
+                <input type="text" name="kxbhi" id="" placeholder="Enter your phone number :">
+            </div>
+            <div class="formGroup">
+                <input type="text" name="kxbhi" id="" placeholder="Enter your email :">
+            </div>
+            <button class="btn1">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
